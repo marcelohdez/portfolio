@@ -37,12 +37,13 @@ export default function Home() {
             subtitle="Computer Science Tutor"
             description="Worked with my team of over 10 tutors to provide over one hundred
             students with insight utilizing Java, C/C++, SQL, and Python, increasing the
-            students’ grade point average by 15% as well as their class participation."
+            students’ grade point average as well as their class participation."
             date="2023 - Present"
             icon={FaPersonChalkboard}
             fancy={true}
           />
         </section>
+        <hr className="h-1 w-2/3 mx-auto border-black/10 dark:border-white/10" />
         <section id="education" className="flex flex-col gap-8">
           <InfoCard
             title="Google"
