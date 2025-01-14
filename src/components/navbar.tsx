@@ -9,6 +9,10 @@ const NavBar = () => {
     { title: "Blog", url: "/blog" },
   ];
 
+  const IsSelected = (url: string): boolean => {
+    return url == usePathname();
+  };
+
   return (
     <div className="flex flex-col w-full top-0 sticky backdrop-blur-md border-b border-neutral-500/30 py-4 gap-4">
       <h1 className="lg:hidden font-serif text-3xl sm:text-4xl mx-auto">
@@ -20,7 +24,7 @@ const NavBar = () => {
             <li
               className={`
                 inline hover:bg-black/15 dark:hover:bg-white/15 rounded-lg py-2 px-3 mx-2 
-                ${page.url == usePathname() ? "bg-black/10 dark:bg-white/10" : ""}
+                ${IsSelected(page.url) ? "bg-black/10 dark:bg-white/10" : ""}
               `}
             >
               {page.title}
