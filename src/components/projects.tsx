@@ -86,7 +86,7 @@ const ProjectsTable = async (props: { mini?: boolean }) => {
         name: fields[1],
         desc: fields[2],
         link: fields[3],
-        tags: fields.slice(4, -1),
+        tags: fields.slice(4),
       };
 
       projects.push(project);

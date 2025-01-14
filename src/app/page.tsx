@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex gap-20">
       <div className="hidden lg:block">
-        <div className="flex flex-col gap-8 sticky top-[5.5rem]">
+        <div className="flex flex-col gap-8 sticky top-[5.6rem]">
           <div className="font-serif text-5xl">Marcelo Hernandez</div>
           <Socials />
         </div>
