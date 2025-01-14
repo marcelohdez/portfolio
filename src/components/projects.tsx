@@ -43,6 +43,7 @@ const FullTable = (projects: ProjectInfo[]) => (
           <th>year</th>
           <th>name/link</th>
           <th className="hidden sm:table-cell">description</th>
+          <th className="hidden md:table-cell">tags</th>
         </tr>
         {projects.map((p, idx) => (
           <tr
@@ -54,6 +55,7 @@ const FullTable = (projects: ProjectInfo[]) => (
               <a href={p.link}>{p.name}</a>
             </td>
             <td className="hidden sm:table-cell">{p.desc}</td>
+            <td className="hidden md:table-cell">{p.tags.join(", ")}</td>
           </tr>
         ))}
       </tbody>
