@@ -1,0 +1,6 @@
+# year, name, desc, link, tags...
+2024,atmpt,Test code in temporary projects,https://github.com/marcelohdez/atmpt,Rust,Github CI,Command-Line
+2024,dim,Native Wayland screen dimmer,https://github.com/marcelohdez/dim,Rust,Wayland,Github CI,Linux
+2023,LoopTube,Play and loop section(s) of audio,https://github.com/marcelohdez/LoopTube,Java,MVC
+2023,ImageToText,Convert images into ASCII,https://github.com/marcelohdez/ImageToText,Java,MVC
+2023,Define4Me,Define a list of words,https://github.com/marcelohdez/Define4Me,Java,JSON,MVC,REST API
