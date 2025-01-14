@@ -18,7 +18,7 @@ const InfoStack = (props: {
           <b className="text-black/50 dark:text-white/50">{props.subtitle}</b>
         </div>
       ) : (
-        <div className="flex flex-col md:flex-row md:gap-2 text-xl">
+        <div className="flex flex-wrap gap-x-2 text-xl">
           <div className="flex items-center gap-2">
             <props.icon />
             <b>{props.title}</b>
