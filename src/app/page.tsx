@@ -9,8 +9,11 @@ export default function Home() {
   return (
     <div className="flex gap-20">
       <div className="hidden lg:block">
-        <div className="flex flex-col gap-8 sticky top-[5.6rem]">
-          <div className="font-serif text-5xl">Marcelo Hernandez</div>
+        <div className="flex flex-col gap-4 sticky top-[5.6rem]">
+          <h1 className="font-serif text-5xl">Marcelo Hernandez</h1>
+          <h4 className="font-bold text-2xl text-black/50 dark:text-white/50">
+            Software Developer
+          </h4>
           <Socials />
         </div>
       </div>

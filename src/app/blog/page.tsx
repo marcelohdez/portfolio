@@ -1,5 +1,5 @@
-const BlogPage = () => {
-  return <div>Nothing to see here yet.</div>;
+const BlogHome = () => {
+  return <div>Under construction 👷🏻</div>;
 };
 
-export default BlogPage;
+export default BlogHome;
