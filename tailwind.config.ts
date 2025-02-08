@@ -11,7 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "marcelo-green-200": "#d9efd9",
+        "marcelo-green-200": "#e3eedf",
         "marcelo-green-800": "#192216",
       },
     },

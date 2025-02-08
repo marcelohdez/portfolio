@@ -13,7 +13,7 @@ const IsSelected = (url: string): boolean => {
 };
 
 const BlogBar = () => (
-  <div className="flex flex-col w-full top-0 sticky bg-green-900 text-white">
+  <div className="flex flex-col w-full top-0 z-50 sticky bg-green-900 text-white">
     <h1 className="font-serif mx-auto py-2 text-3xl sm:text-4xl">
       The Marcelo Times
     </h1>
@@ -36,7 +36,7 @@ const BlogBar = () => (
 );
 
 const RegularBar = () => (
-  <div className="flex flex-col w-full top-0 sticky backdrop-blur-md border-b border-neutral-500/30 py-4 gap-4">
+  <div className="flex flex-col w-full top-0 sticky z-50 backdrop-blur-md border-b border-neutral-500/30 py-4 gap-4">
     <h1 className="lg:hidden font-serif text-3xl sm:text-4xl mx-auto">
       Marcelo Hernandez
     </h1>

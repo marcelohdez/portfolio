@@ -17,7 +17,7 @@ const MiniTable = (projects: ProjectInfo[]) => (
         <a key={idx} href={p.link}>
           <li
             className="flex justify-between bg-marcelo-green-200 dark:bg-marcelo-green-800
-              border-t border-t-black/10 hover:bg-black/10 dark:border-t-white/10
+              border-t border-t-black/10 dark:border-t-white/10 hover:bg-black/10
               hover:dark:bg-white/10 p-4 rounded-md"
           >
             <div>

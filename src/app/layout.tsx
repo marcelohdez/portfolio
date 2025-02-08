@@ -3,7 +3,7 @@ import "./globals.css";
 import { NavBar } from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "marcelohdez",
+  title: "marcelohdez.com",
   description: "Marcelo Hernandez, a Software Developer's portfolio",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NavBar />
-        <div className="max-w-6xl mx-auto mb-16 pt-2 px-6 sm:px-8 md:px-16 lg:py-8 lg:px-20">
+        <div className="max-w-6xl mx-auto mb-16 py-4 px-6 sm:px-8 md:px-16 lg:py-8 lg:px-20">
           {children}
         </div>
       </body>
