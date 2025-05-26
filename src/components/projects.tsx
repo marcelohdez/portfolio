@@ -18,7 +18,7 @@ const MiniTable = (projects: ProjectInfo[]) => (
           <li
             className="flex justify-between bg-marcelo-green-200 dark:bg-marcelo-green-800
               border-t border-t-black/10 dark:border-t-white/10 hover:bg-black/10
-              hover:dark:bg-white/10 p-4 rounded-md"
+              dark:hover:bg-white/10 p-4 rounded-md"
           >
             <div>
               <div className="font-bold">{p.name}</div>
@@ -48,7 +48,7 @@ const FullTable = (projects: ProjectInfo[]) => (
         {projects.map((p, idx) => (
           <tr
             key={idx}
-            className="border-t border-t-black/10 dark:border-t-white/10 hover:bg-black/10 hover:dark:bg-white/10"
+            className="border-t border-t-black/10 dark:border-t-white/10 hover:bg-black/10 dark:hover:bg-white/10"
           >
             <td>{p.year}</td>
             <td className="py-4 text-black/70 dark:text-white/70 hover:underline">

@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --background: #f3faef;
   --foreground: #1f1f1f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +15,13 @@
     --background: #0f140a;
     --foreground: #eaeaea;
   }
+}
+
+@theme {
+  --font-serif: "DM Serif Text", Jomolhari, Helvetica, sans-serif;
+
+  --color-marcelo-green-200: #e3eedf;
+  --color-marcelo-green-800: #192216;
 }
 
 * {
