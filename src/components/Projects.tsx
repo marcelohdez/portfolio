@@ -1,6 +1,6 @@
 import { readFile } from "fs/promises";
 import { FaArrowRight } from "react-icons/fa6";
-import { SeeLink } from "./seelink";
+import { SeeLink } from "./SeeLink";
 
 interface ProjectInfo {
   year: number;
@@ -29,9 +29,7 @@ const MiniTable = (projects: ProjectInfo[]) => (
         </a>
       ))}
     </ul>
-    <a href="/projects">
-      <SeeLink text="See all projects" />
-    </a>
+    <SeeLink href="/projects">See all projects</SeeLink>
   </div>
 );
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { NavBar } from "@/components/navbar";
+import { NavBar } from "@/components/NavBar";
 import { DM_Serif_Text, Poppins } from "next/font/google";
 
 export const metadata: Metadata = {

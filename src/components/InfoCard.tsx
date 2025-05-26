@@ -5,7 +5,7 @@ const InfoStack = (props: {
   title: string;
   subtitle: string;
   description: string;
-  date: string;
+  footnote: string;
   icon: IconType;
   fancy?: boolean;
 }) => {
@@ -34,7 +34,9 @@ const InfoStack = (props: {
       >
         {props.description}
       </div>
-      <i className="text-sm text-black/40 dark:text-white/40">{props.date}</i>
+      <i className="text-sm text-black/40 dark:text-white/40">
+        {props.footnote}
+      </i>
     </div>
   );
 };

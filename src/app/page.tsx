@@ -1,7 +1,7 @@
-import { InfoCard } from "@/components/infocard";
-import { ProjectsTable } from "@/components/projects";
-import { SeeLink } from "@/components/seelink";
-import { Socials } from "@/components/socials";
+import { InfoCard } from "@/components/InfoCard";
+import { ProjectsTable } from "@/components/Projects";
+import { SeeLink } from "@/components/SeeLink";
+import { Socials } from "@/components/Socials";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaGoogle, FaPersonChalkboard } from "react-icons/fa6";
 
@@ -41,7 +41,7 @@ export default function Home() {
             description="Worked with my team of over 10 tutors to provide over one hundred
             students with insight utilizing Java, C/C++, SQL, and Python, increasing the
             students’ grade point average as well as their class participation."
-            date="2023 - Present"
+            footnote="2023 - Present"
             icon={FaPersonChalkboard}
             fancy={true}
           />
@@ -53,7 +53,7 @@ export default function Home() {
             subtitle="Tech Exchange"
             description="Mentored by Googlers while completing accredited courswork including
             Algorithms & System Design, Intro to Software Engineering, and Careers in Tech."
-            date="2024 - Present"
+            footnote="2024 - Present"
             icon={FaGoogle}
           />
           <InfoCard
@@ -61,19 +61,17 @@ export default function Home() {
             subtitle="BS in Computer Science"
             description="Participated in extracurricular activities with SHPE and INIT, while
             completing coursework including Programming I and II, and Data Structures."
-            date="2024 - Present"
+            footnote="2024 - Present"
             icon={FaGraduationCap}
           />
           <InfoCard
             title="Miami Dade College"
             subtitle="AA in Computer Science"
             description="Completed coursework including Calculus, Intro to Java, Intro to C++, and Discrete Mathematics."
-            date="2022 - 2024"
+            footnote="2022 - 2024"
             icon={FaGraduationCap}
           />
-          <a href="/resume.pdf">
-            <SeeLink text="See full resume" />
-          </a>
+          <SeeLink href="/resume.pdf">See full resume</SeeLink>
         </section>
       </div>
     </div>
