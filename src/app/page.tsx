@@ -22,11 +22,11 @@ export default function Home() {
           <Socials />
         </div>
         <section id="about">
-          Student at <b>Florida International University</b> and
-          Engineering/Technology tutor at <b>Miami Dade College</b> interested
-          in low-level programming and open-source software. Always looking to
-          learn new things, already comfortable using Java, Rust, JavaScript,
-          Typescript and Go.
+          Student Program Assistant in <b>Florida International University</b>,
+          expanding Computer Science education through Break Through Tech and
+          currently majoring in a Computer Science bachelor&apos;s myself.
+          Interested in low-level programming and open-source software.
+          Comfortable with Java, Rust, JavaScript, Typescript and Go.
         </section>
         <section id="projects">
           <div className="mb-4 text-black/50 dark:text-white/50">
@@ -36,12 +36,13 @@ export default function Home() {
         </section>
         <section id="experience">
           <InfoCard
-            title="Miami Dade College"
-            subtitle="Computer Science Tutor"
-            description="Worked with my team of over 10 tutors to provide over one hundred
-            students with insight utilizing Java, C/C++, SQL, and Python, increasing the
-            students’ grade point average as well as their class participation."
-            footnote="2023 - Present"
+            title="Florida International University"
+            subtitle="Student Program Assistant"
+            description="Contributing to expanding computer science education
+            to hundreds of students by coordinating workshop facilities and
+            curriculum development for Code.org, Break Through Tech, and more
+            organizations’ initiatives."
+            footnote="June 2025 - Present"
             icon={FaPersonChalkboard}
             fancy={true}
           />
@@ -53,7 +54,7 @@ export default function Home() {
             subtitle="Tech Exchange"
             description="Mentored by Googlers while completing accredited courswork including
             Algorithms & System Design, Intro to Software Engineering, and Careers in Tech."
-            footnote="2024 - Present"
+            footnote="Jan 2025 - May 2025"
             icon={FaGoogle}
           />
           <InfoCard
@@ -61,14 +62,14 @@ export default function Home() {
             subtitle="BS in Computer Science"
             description="Participated in extracurricular activities with SHPE and INIT, while
             completing coursework including Programming I and II, and Data Structures."
-            footnote="2024 - Present"
+            footnote="Aug 2024 - May 2027 (Expected)"
             icon={FaGraduationCap}
           />
           <InfoCard
             title="Miami Dade College"
             subtitle="AA in Computer Science"
             description="Completed coursework including Calculus, Intro to Java, Intro to C++, and Discrete Mathematics."
-            footnote="2022 - 2024"
+            footnote="Aug 2022 - July 2024"
             icon={FaGraduationCap}
           />
           <SeeLink href="/resume.pdf">See full resume</SeeLink>
