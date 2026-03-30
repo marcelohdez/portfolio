@@ -1,0 +1,27 @@
+name: Resume Update Check
+
+on:
+  push:
+    paths:
+      - "resume.typ"
+      - "public/resume.pdf"
+    branches:
+      - main
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install Typst
+        run: sudo snap install typst
+      - name: Install Poppler (for pdftotext)
+        run: sudo apt install -y poppler-utils
+      - name: Compile with Typst
+        run: typst compile resume.typ test.pdf
+      - name: Compare text with existing version
+        run: |
+          pdftotext public/resume.pdf resume.txt
+          pdftotext test.pdf test.txt
+          cmp test.txt resume.txt
