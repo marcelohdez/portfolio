@@ -52,8 +52,8 @@
   info: [Aug 2024 – May 2027],
 )
 #highlights((
-  [*Relevant Coursework:* Programming I & II, Data Structures & Algorithm Techniques, Computer Architecture],
-  [*Activities:* Break Through Tech, INIT, ColorStack, Society of Hispanic Professional Engineers (SHPE)],
+  [*Relevant Coursework:* Programming I & II, Data Structures & Algorithm Techniques, Computer Architecture.],
+  [*Activities:* Break Through Tech, INIT, ColorStack, Society of Hispanic Professional Engineers (SHPE).],
 ))
 
 #twocol(
@@ -61,8 +61,8 @@
   info: [Jan 2025 – May 2025],
 )
 #highlights((
-  [*Selected from 1,500+ candidates* to receive technical interviews and system architecture/software engineering coaching],
-  [*Courses:* Algorithm & System Design, Introduction to Software Engineering, and Careers in Tech],
+  [*Selected from 1,500+ candidates* to receive technical interviews and system architecture/software engineering coaching.],
+  [*Courses:* Algorithm & System Design, Introduction to Software Engineering, and Careers in Tech.],
 ))
 
 #section("Experience")
