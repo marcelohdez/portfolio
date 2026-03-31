@@ -3,7 +3,7 @@ import { ProjectsTable } from "@/components/Projects";
 import { SeeLink } from "@/components/SeeLink";
 import { Socials } from "@/components/Socials";
 import { FaGraduationCap } from "react-icons/fa";
-import { FaGoogle, FaPersonChalkboard } from "react-icons/fa6";
+import { FaCloudflare, FaGoogle } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -22,11 +22,11 @@ export default function Home() {
           <Socials />
         </div>
         <section id="about">
-          Student Program Assistant in <b>Florida International University</b>,
-          expanding Computer Science education through Break Through Tech and
-          currently majoring in a Computer Science bachelor&apos;s myself.
-          Interested in low-level programming and open-source software.
-          Comfortable with Java, Rust, JavaScript, Typescript and Go.
+          Software Engineer Intern at <b>Cloudflare</b>, in the Zero Trust
+          Connectivity team, currently improving observability for our users and
+          the company . Passionate about all the things low-level, performance,
+          and user experience. Comfortable in Rust, Python, Go, C/C++, Java, and
+          JavaScript/TypeScript.
         </section>
         <section id="projects">
           <div className="mb-4 text-black/50 dark:text-white/50">
@@ -36,14 +36,14 @@ export default function Home() {
         </section>
         <section id="experience">
           <InfoCard
-            title="Florida International University"
-            subtitle="Student Program Assistant"
-            description="Contributing to expanding computer science education
-            to hundreds of students by coordinating workshop facilities and
-            curriculum development for Code.org, Break Through Tech, and more
-            organizations’ initiatives."
-            footnote="June 2025 - Present"
-            icon={FaPersonChalkboard}
+            title="Cloudflare"
+            subtitle="Software Engineer Intern"
+            description="Improving observability for customers and the company by
+            implementing network session logs in Rust for Cloudflare One’s Zero
+            Trust internal routing service handling millions of requests per day,
+            Apollo."
+            footnote="Jan 2026 - Present"
+            icon={FaCloudflare}
             fancy={true}
           />
         </section>
@@ -63,13 +63,6 @@ export default function Home() {
             description="Participated in extracurricular activities with SHPE and INIT, while
             completing coursework including Programming I and II, and Data Structures."
             footnote="Aug 2024 - May 2027 (Expected)"
-            icon={FaGraduationCap}
-          />
-          <InfoCard
-            title="Miami Dade College"
-            subtitle="AA in Computer Science"
-            description="Completed coursework including Calculus, Intro to Java, Intro to C++, and Discrete Mathematics."
-            footnote="Aug 2022 - July 2024"
             icon={FaGraduationCap}
           />
           <SeeLink href="/resume.pdf">See full resume</SeeLink>

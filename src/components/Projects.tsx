@@ -34,26 +34,26 @@ const MiniTable = (projects: ProjectInfo[]) => (
 );
 
 const FullTable = (projects: ProjectInfo[]) => (
-  <div>
-    <table className="w-full hover:bg-marcelo-green-200 dark:hover:bg-marcelo-green-800">
+  <div className="hover:bg-marcelo-green-200 dark:hover:bg-marcelo-green-800 rounded-md pt-2">
+    <table className="w-full">
       <tbody>
         <tr className="text-left">
-          <th>year</th>
+          <th className="pl-2">year</th>
           <th>name/link</th>
-          <th className="hidden sm:table-cell">description</th>
-          <th className="hidden md:table-cell">tags</th>
+          <th className="hidden pl-2 sm:table-cell">description</th>
+          <th className="hidden pl-2 md:table-cell">tags</th>
         </tr>
         {projects.map((p, idx) => (
           <tr
             key={idx}
             className="border-t border-t-black/10 dark:border-t-white/10 hover:bg-black/10 dark:hover:bg-white/10"
           >
-            <td>{p.year}</td>
+            <td className="p-2">{p.year}</td>
             <td className="py-4 text-black/70 dark:text-white/70 hover:underline">
               <a href={p.link}>{p.name}</a>
             </td>
-            <td className="hidden sm:table-cell">{p.desc}</td>
-            <td className="hidden md:table-cell">{p.tags.join(", ")}</td>
+            <td className="hidden p-2 sm:table-cell">{p.desc}</td>
+            <td className="hidden p-2 md:table-cell">{p.tags.join(", ")}</td>
           </tr>
         ))}
       </tbody>
