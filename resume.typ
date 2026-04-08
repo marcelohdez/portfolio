@@ -7,7 +7,7 @@
 #set block(spacing: 0.25cm)
 
 #let section(title) = {
-  v(4pt)
+  v(2pt)
   text(size: 12pt, weight: "bold")[#title]
   v(-5pt)
   line(length: 100%, stroke: 0.5pt + black)
@@ -82,8 +82,9 @@ _Software Engineer Intern_
 )
 _Software Engineer Intern_
 #highlights((
-  [*Improving observability* for customers and the company by implementing network session logs in Rust for Cloudflare One's Zero Trust internal routing service, Apollo, *coordinating schema and logic changes across three teams and codebases*.],
-  [*Owning the feature release and rollout* as the deployment reaches our metals and customers worldwide.],
+  [Implemented network session logs for L4 traffic in Cloudflare One's Zero Trust Connectivity team, *improving observability* for our internal routing service, Apollo, which handles *over 100K requests per second* globally.],
+  [Built *end-to-end verification tests* into the existing test suite, ensuring correctness across service hops and restart scenarios.],
+  [Coordinated schema and field precedence logic changes across three teams for connections with multi-service hops.],
 ))
 
 #twocol(
@@ -114,7 +115,7 @@ _Software Engineer Intern_
 _Computer Science Tutor_
 #highlights((
   [Coached *over 100 students* on implementing data structures and creating projects using Java, C/C++, SQL, and Python.],
-  [*Increased struggling students' grades by 50%* and significantly increased classroom participation rates.],
+  [*Increased students' grades by 50%* and increased their classroom participation rates.],
 ))
 
 #section("Competitions")
@@ -166,6 +167,6 @@ _Computer Science Tutor_
 #list(
   marker: none,
   body-indent: 0pt,
-  [*Languages:* Java, JavaScript, TypeScript, Python, Go, Rust, C/C++, Bash/Shell, SQL],
-  [*Technologies:* Git, CI/CD, Linux/Unix, Azure DevOps, Node, React/Next.js, Vim, Streamlit, BigQuery, WordPress],
+  [*Languages:* Rust, Go, Python, C/C++, JavaScript/TypeScript, Java, Bash/Shell, SQL],
+  [*Technologies:* Git, CI/CD, Linux/Unix, Azure DevOps, Node.js, React/Next.js, Vim, Streamlit, BigQuery],
 )
