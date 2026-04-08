@@ -1,0 +1,10 @@
+#!/usr/bin/sh
+
+unstaged_files=$(git diff --name-only)
+staged_files=$(git diff --staged --name-only)
+
+# compile new resume in case it changed
+if echo "$unstaged_files" "$staged_files" | grep resume; then
+  typst compile resume.typ public/resume.pdf
+  git add resume.typ public/resume.pdf
+fi
