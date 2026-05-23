@@ -23,7 +23,8 @@ export default function RootLayout({
     <html lang="en" className={`${dmSerifText.className} ${poppins.className}`}>
       <body>
         <NavBar />
-        <div className="max-w-6xl mx-auto mb-16 py-4 px-6 sm:px-8 md:px-16 lg:py-8 lg:px-20">
+        <div className="max-w-6xl mx-auto mb-16 py-4 px-6 sm:px-8 md:px-16
+        lg:py-8 lg:px-20">
           {children}
         </div>
       </body>

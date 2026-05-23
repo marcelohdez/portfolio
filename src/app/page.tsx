@@ -3,7 +3,7 @@ import { ProjectsTable } from "@/components/Projects";
 import { SeeLink } from "@/components/SeeLink";
 import { Socials } from "@/components/Socials";
 import { FaGraduationCap } from "react-icons/fa";
-import { FaCloudflare, FaGoogle } from "react-icons/fa6";
+import { FaCloudflare, FaGoogle, FaLyft } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -22,11 +22,11 @@ export default function Home() {
           <Socials />
         </div>
         <section id="about">
-          Software Engineer Intern at <b>Cloudflare</b>, in the Zero Trust
-          Connectivity team, currently improving observability for our users and
-          the company . Passionate about all the things low-level, performance,
-          and user experience. Comfortable in Rust, Python, Go, C/C++, Java, and
-          JavaScript/TypeScript.
+          Software Engineer Intern at <b>Lyft</b> in the Self-service
+          Intelligence team, helping create AI agents harnessing telematics data
+          to automatically verify riders' reports. Passionate about all the
+          things low-level, performance, and user experience. Comfortable in
+          Rust, Python, Go, C/C++, Java, and JavaScript/TypeScript.
         </section>
         <section id="projects">
           <div className="mb-4 text-black/50 dark:text-white/50">
@@ -34,36 +34,46 @@ export default function Home() {
           </div>
           <ProjectsTable mini={true} />
         </section>
-        <section id="experience">
+        <section id="experience" className="flex flex-col gap-8">
+          <InfoCard
+            title="Lyft"
+            subtitle="Software Engineer Intern"
+            description="Enabling AI agents to harness telematics data for
+            automatic verification of riders' reports."
+            footnote="May 2026 - Aug 2026"
+            icon={FaLyft}
+            fancy={true}
+          />
           <InfoCard
             title="Cloudflare"
             subtitle="Software Engineer Intern"
-            description="Improving observability for customers and the company by
-            implementing network session logs in Rust for Cloudflare One’s Zero
-            Trust internal routing service handling millions of requests per day,
-            Apollo."
-            footnote="Jan 2026 - Present"
+            description="Improving observability for customers and the company
+            by implementing network session logs in Rust for Cloudflare One’s
+            Zero Trust internal routing service handling millions of requests
+            per day, Apollo."
+            footnote="Jan 2026 - Apr 2026"
             icon={FaCloudflare}
-            fancy={true}
           />
         </section>
         <hr className="h-1 w-2/3 mx-auto border-black/10 dark:border-white/10" />
         <section id="education" className="flex flex-col gap-8">
           <InfoCard
-            title="Google"
-            subtitle="Tech Exchange"
-            description="Mentored by Googlers while completing accredited courswork including
-            Algorithms & System Design, Intro to Software Engineering, and Careers in Tech."
-            footnote="Jan 2025 - May 2025"
-            icon={FaGoogle}
-          />
-          <InfoCard
             title="Florida International University"
             subtitle="BS in Computer Science"
-            description="Participated in extracurricular activities with SHPE and INIT, while
-            completing coursework including Programming I and II, and Data Structures."
+            description="Participated in extracurricular activities with SHPE
+            and INIT, while completing coursework including Programming I and
+            II, and Data Structures."
             footnote="Aug 2024 - May 2027 (Expected)"
             icon={FaGraduationCap}
+          />
+          <InfoCard
+            title="Google"
+            subtitle="Tech Exchange"
+            description="Mentored by Googlers while completing accredited
+            courswork including Algorithms & System Design, Intro to Software
+            Engineering, and Careers in Tech."
+            footnote="Jan 2025 - May 2025"
+            icon={FaGoogle}
           />
           <SeeLink href="/resume.pdf">See full resume</SeeLink>
         </section>
