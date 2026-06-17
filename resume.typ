@@ -73,7 +73,7 @@
 )
 _Software Engineer Intern_
 #highlights((
-  [Joining the Self-service Intelligence team to build *AI agents harnessing telematics data* to automatically verify riders' reports.],
+  [Building *AI agents* harnessing telematics data to automatically verify rider self-service reports, in Python with LangSmith.],
 ))
 
 #twocol(
@@ -82,7 +82,7 @@ _Software Engineer Intern_
 )
 _Software Engineer Intern_
 #highlights((
-  [Implemented network session logs for L4 traffic in Cloudflare One's Zero Trust Connectivity team, *improving observability* for our internal routing service written in Rust, Apollo, which handles *over 100K requests per second* globally.],
+  [Implemented network session logs for L4 traffic in Rust for Apollo, an internal routing service handling *100K+ requests/second* globally, *improving observability* to our teams and customers routing through our Zero Trust network.],
   [Built *end-to-end verification tests* into the existing test suite, ensuring correctness across service hops and restart scenarios.],
   [Coordinated schema and field precedence logic changes across three teams for connections with multi-service hops.],
 ))
@@ -102,9 +102,9 @@ _Student Program Assistant_
 )
 _Software Engineer Intern_
 #highlights((
-  [*Designed and implemented* a conversion mechanism for J1708 vehicle diagnostic messages to the ASAM MDF 4 format using C++ along with a Python test harness intended to run on bare-metal embedded devices.],
-  [*Established a CI/CD pipeline* on the Azure DevOps cloud platform for automated testing and enforcing formatting.],
-  [Delivered quickly and effectively in a three week long sprint internship hosted in collaboration with *Break Through Tech*.],
+  [Designed and implemented a *J1708 to MDF4 conversion mechanism in C++* targeting bare-metal embedded devices.],
+  [*Developed a CI/CD pipeline* with a Python testing harness generating test byte streams on Azure DevOps.],
+  [Delivered quickly in a *three-week-long sprint internship* hosted in collaboration with Break Through Tech.],
 ))
 
 #twocol(
@@ -124,7 +124,7 @@ _Computer Science Tutor_
   info: [#link("https://github.com/FIU-Lunabotics/FIU-Luna0")[github.com/FIU-Lunabotics/FIU-Luna0]],
 )
 #highlights((
-  [Developed a client-server architecture in Python for a lunar rover in a team of 15+ people, for real-time communication through Unix sockets between an operator's inputs on a Linux device and the rover's Raspberry Pi.],
+  [Developed a client-server architecture in Python for a lunar rover in a team of 15+ people, for real-time communication through Unix sockets between inputs from a Linux device to the rover's Raspberry Pi, using Arduinos for motor control.],
 ))
 
 *ICPC Southeast USA Regional 2022*, _MDC Cybersharks_
@@ -168,5 +168,5 @@ _Computer Science Tutor_
   marker: none,
   body-indent: 0pt,
   [*Languages:* Rust, Go, Python, C/C++, JavaScript/TypeScript, Java, Bash/Shell, SQL],
-  [*Technologies:* Git, CI/CD, Linux/Unix, Azure DevOps, Node.js, React/Next.js, Vim, Streamlit, BigQuery],
+  [*Technologies:* Git, CI/CD, Linux/Unix, Azure DevOps, Node.js, React/Next.js, Vim, Streamlit],
 )
