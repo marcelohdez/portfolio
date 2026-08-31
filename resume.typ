@@ -73,7 +73,8 @@
 )
 _Software Engineer Intern_
 #highlights((
-  [Building *AI agents* harnessing telematics data to automatically verify rider self-service reports, in Python with LangSmith.],
+  [Built MCP server schema and config logic (LangChain, Pydantic) extending Lyft's Self-Serve AI Agent platform's tool integrations, targeted for *use across every released and future configurable agent* which handle *250K+ interactions monthly* collectively.],
+  [Exposed and maintained telematics endpoints through tools for AI agent consumption on the platform.],
 ))
 
 #twocol(
@@ -113,8 +114,7 @@ _Software Engineer Intern_
 )
 _Computer Science Tutor_
 #highlights((
-  [Coached *over 100 students* on creating data structures and creating projects using Java, C/C++, SQL, and Python.],
-  [*Increased students' grades by 50%* and increased classroom participation rates.],
+  [Coached *100+ students* on DSA with Java, C/C++, SQL, and Python, increasing their GPA by 50% along with participation.],
 ))
 
 #section("Competitions")
