@@ -52,7 +52,7 @@
   info: [Aug 2024 - May 2027],
 )
 #highlights((
-  [*Courses:* Programming I & II, Data Structures, Algorithm Techniques, Computer Architecture, Database Management.],
+  [*Courses:* Programming I/II, Data Structures & Algorithms, Computer Architecture, Systems Programming, Database Management.],
   [*Activities:* Break Through Tech, INIT, ColorStack, Society of Hispanic Professional Engineers (SHPE).],
 ))
 
@@ -62,7 +62,6 @@
 )
 #highlights((
   [*Selected from 1,500+ candidates* to receive technical interviews and system architecture/software engineering coaching.],
-  [*Courses:* Algorithm & System Design, Introduction to Software Engineering, and Careers in Tech.],
 ))
 
 #section("Experience")
@@ -73,7 +72,7 @@
 )
 _Software Engineer Intern_
 #highlights((
-  [Built MCP server schema and config logic (LangChain, Pydantic) extending Lyft's Self-Serve AI Agent platform's tool integrations, targeted for *use across every released and future configurable agent* which handle *250K+ interactions monthly* collectively.],
+  [Built MCP server schema and config logic (LangChain, Pydantic) extending Lyft's Self-Serve AI Agent platform's tool integrations, targeted for *use across every released and future configurable agent* handling *250K+ interactions monthly* collectively.],
   [Exposed and maintained telematics endpoints through tools for AI agent consumption on the platform.],
 ))
 
@@ -94,7 +93,7 @@ _Software Engineer Intern_
 )
 _Student Program Assistant_
 #highlights((
-  [Contributed to an expansion of computer science education for 100+ students by *coordinating workshops and curriculum* for Break Through Tech's Sprinternship program, and facilitating workshops initiatives for organizations including Code.org.],
+  [Expanded computer science education to 100+ students by *coordinating workshops and curriculum* for Break Through Tech's Sprinternship program, and facilitating workshops initiatives for organizations including Code.org.],
 ))
 
 #twocol(
@@ -104,7 +103,7 @@ _Student Program Assistant_
 _Software Engineer Intern_
 #highlights((
   [*Designed and implemented* a J1708 to MDF4 conversion mechanism in C++ targeting bare-metal embedded devices.],
-  [Developed a *CI/CD pipeline* with a Python testing harness generating test byte streams on Azure DevOps.],
+  [Instated a *CI/CD pipeline* with a Python testing harness generating test byte streams on Azure DevOps.],
   [Delivered quickly in a *three-week-long sprint internship* hosted in collaboration with Break Through Tech.],
 ))
 
@@ -114,7 +113,7 @@ _Software Engineer Intern_
 )
 _Computer Science Tutor_
 #highlights((
-  [Coached *100+ students* on DSA with Java, C/C++, SQL, and Python, increasing their GPA by 50% along with participation.],
+  [Coached *100+ students* on DSA with Java, C/C++, SQL, and Python, increasing GPA by 50% along with participation.],
 ))
 
 #section("Competitions")
@@ -148,8 +147,8 @@ _Computer Science Tutor_
   info: [#link("https://github.com/marcelohdez/atmpt")[github.com/marcelohdez/atmpt]],
 )
 #highlights((
-  [Create and open temporary coding projects in an editor, leading to a *decrease in time-to-code by 40%*.],
-  [Developed CI/CD pipeline with GitHub Actions for *automated testing*.],
+  [Initiate and open temporary development projects in an editor, leading to a *decrease in time-to-code by 40%*.],
+  [Created a CI/CD pipeline with GitHub Actions for *automated testing*.],
 ))
 
 #twocol(
@@ -168,5 +167,5 @@ _Computer Science Tutor_
   marker: none,
   body-indent: 0pt,
   [*Languages:* Rust, Go, Python, C/C++, JavaScript/TypeScript, Java, Bash/Shell, SQL],
-  [*Technologies:* Git, CI/CD, Linux/Unix, Azure DevOps, Node.js, React/Next.js, Vim, Streamlit],
+  [*Technologies:* Git, CI/CD, Linux/Unix, Azure DevOps, Node.js, React/Next.js, Vim, Claude Code],
 )
